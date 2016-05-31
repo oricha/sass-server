@@ -20,15 +20,18 @@ Docker images cloud be created with **Maven**
 
 To stop and remove and push containers
 
--**docker stop ID_Generated** 
--**docker rm ID_Generated**
--**docker push sass-service***
+- **docker stop ID_Generated** 
+- **docker rm ID_Generated**
+- **docker push sass-service***
 
 
 #### <i class="icon-hdd"></i> Push container to Docker Registry
 
 -To push the image you just built to the registry from mvn, specify the pushImage flag. This push lates image
+
 **mvn clean package docker:build -DpushImage**
+
 -To push only specific tags of the image to the registry, specify the pushImageTag flag.
+
 **mvn clean package docker:build -DpushImageTag**
 
