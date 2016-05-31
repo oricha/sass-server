@@ -1,6 +1,7 @@
 SASS SERVER
 ----------------------
 Why SASS through AAPI  REST?
+
 Sass was originally written in Ruby, but is very slow, then emerged LibSass a C/C++ port of the Sass engine. 
 But LibSass is not completely ported Java, only for Linux and java8 versions. Then if you have your application
  in Java7 with Sass-Server you can have an endpoint to convert your files Sass to css.
@@ -18,9 +19,11 @@ Docker images cloud be created with **Maven**
 - **docker run -p 9000:9000 -t sass-service**
 
 To stop and remove and push containers
+
 -**docker stop ID_Generated** 
 -**docker rm ID_Generated**
--**docker push sass-service
+-**docker push sass-service***
+
 
 #### <i class="icon-hdd"></i> Push container to Docker Registry
 
