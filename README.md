@@ -16,7 +16,7 @@ Docker images cloud be created with **Maven**
 
 #### <i class="icon-hdd"></i> Whit maven
 - execute **mvn clean package docker:build**
-- **docker run -p 9000:9000 -t sass-service**
+- **docker run -p 9999:9999 -t sass-service**
 
 To stop and remove and push containers
 
