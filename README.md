@@ -8,7 +8,10 @@ But LibSass is not completely ported Java, only for Linux and java8 versions. Th
  
  - run mvn spring-boot:run
 
-Sass-Server run on port aplication.properties:server.port=9999
+Sass-Server run on port aplication.properties
+```properties
+server.port=9999
+```
 Creating docker images
 ----------------------
 Docker images cloud be created with **Maven** 
